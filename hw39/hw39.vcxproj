@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="hw39.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TrafficDatabase.cpp" />
+    <ClCompile Include="Violation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TrafficDatabase.h" />
+    <ClInclude Include="Violation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
